@@ -1,0 +1,30 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding: 15%;
+  background-color: grey;
+  text-align: center;
+}
+
+#quote-box {
+  margin: 0 auto;
+  padding: 50px;
+  height: 300px;
+  width: 600px;
+  text-align: center;
+  background-color: white;
+  /*height: 300px;*/
+  /*z-index: 3000px;*/
+
+}
+
+/*#quote {
+  padding: 40px;
+  width: inherit;
+  height: 250px;
+}*/
