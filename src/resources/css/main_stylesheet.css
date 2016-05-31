@@ -1,14 +1,53 @@
-body {
+html, body {
   margin: 0 auto;
   width: 100%;
   height: 100%;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: left;
+}
+
+button {
+  background-color: white;
+  color: #008CBA;
+  border: 2px solid #008CBA;
+  padding: 16px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 20px;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+button:active {
+  background-color: lightblue;
+}
+
+button:focus {
+  outline: 0;
 }
 
 #wrapper {
   margin: 0 auto;
   padding: 15%;
-  background-color: grey;
+  /*background-color: grey;*/
   text-align: center;
+  /*height: 100%;*/
 }
 
 #quote-box {
@@ -17,14 +56,21 @@ body {
   height: 300px;
   width: 600px;
   text-align: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.75);
   /*height: 300px;*/
   /*z-index: 3000px;*/
 
 }
 
-/*#quote {
-  padding: 40px;
-  width: inherit;
-  height: 250px;
-}*/
+#quote {
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 150px;
+  /*background-color: lightblue;*/
+}
+
+#author {
+  text-align: right;
+  font-weight: 100;
+  font-size: 16px;
+}

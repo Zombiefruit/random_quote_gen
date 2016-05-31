@@ -10,15 +10,20 @@
 
     <title>CHANGE THIS!</title>
 
+    <!-- Some fonts (186 ms page load impact) -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <!-- This is the main stylesheet for my own stylings -->
     <link href="resources/css/main_stylesheet.css" rel="stylesheet" >
 
   </head>
-  <body>
+  <!-- TODO: make the onclick calls unobstrusive -->
+  <body id="main" onload="quoteButton()">
     <div id="wrapper">
       <div id="quote-box">
         <p id="quote">
         </p>
+        <!-- TODO: make the onclick calls unobstrusive -->
         <button id="refresh" onclick="quoteButton()">New Quote</button>
       </div>
     </div>
